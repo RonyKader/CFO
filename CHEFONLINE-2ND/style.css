@@ -970,6 +970,7 @@ select:focus {
   text-transform: uppercase;
   width: 47%;
   cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
 }
 .searchcontent-area .new {
   width: 26%;
@@ -985,6 +986,7 @@ select:focus {
   margin-left: .3em;
   text-transform: uppercase;
   cursor: pointer;
+  font-family: 'Noto Sans', sans-serif;
 }
 .searchcontent-area .hov-search {
   color: #fff;
@@ -995,15 +997,15 @@ select:focus {
 }
 .searchcontent-area .time-delivery ul li {
   color: #58595b;
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.3em;
   font-weight: bold;
   padding-top: 1em;
 }
 .searchcontent-area .sera-offer span {
   color: #58595b;
-  font-family: 'Oswald', sans-serif;
-  font-size: 0.9em;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1em;
   font-weight: 600;
 }
 .searchcontent-area .search-discount ul li {
