@@ -347,7 +347,7 @@
 	.header-top .register-area { margin-top: 0; }
 	.header-top .find-area { margin-top: 2em;	}
 	.parallax-area h2 { font-size: 3em; padding-top: 4em; line-height: 1.2em;}
-	.header-top .register-area ul li a{ width: 10.8em;}
+	.header-top .register-area ul li a{ width: 10.5em;}
 	.best-restaurants .btn-black { width: 100%; }	
 	.header-top {padding-top: 1em;}
 	.social-head { text-align: center;}
@@ -445,7 +445,7 @@
 	.header-top .header-bg::after{top: 21em;}
 	.header-top .find-area { margin-top: 3em;}
 	.parallax-area h2 { font-size: 3em; padding-top: 4em; line-height: 1.2em;}
-	.header-top .register-area ul li a{ width: 13.9em;}
+	.header-top .register-area ul li a{ width: 15em;}
 	.best-restaurants .btn-black { width: 100%; }	
 	.header-top {padding-top: 1em;}
 	.social-head { text-align: center;}
