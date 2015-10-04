@@ -339,8 +339,20 @@ img{
           font-size: 1.9em;
           padding: 0.5em;
           text-align: center;
-          width: 2em;
+          width: 2.2em;
+          border:2px solid #000;
+          -webkit-transition: all 0.7s;
+             -moz-transition: all 0.7s;
+               -o-transition: all 0.7s;
+                  transition: all 0.7s;
+                  &:hover{
+                    background: red;
+                    border:2px solid #fff;
+                  }
           
+        }
+        .socialhead-nav .fa-twitter:hover{
+          border: 2px solid #00B6F3;
         }
         
     }
@@ -1156,3 +1168,31 @@ select:focus {
     }
    }
    
+// Comming soon Page
+.coming-cont > header{
+  padding: 4em 0em;
+  color: #D9443F;
+  font-weight: bold;
+}
+.img-404 {
+    padding: 1em 0;
+}
+.maincontent-404 > header{
+  padding: 1em 0em;
+  color: #D9443F;
+  font-weight: bold;
+  padding: 0em 1em 0;
+  display: none;
+}
+.coming-soon {
+  background: #fff;
+  border-bottom-left-radius: 2em;
+  border-top-right-radius: 2em;
+  
+  font-family: 'Oswald', sans-serif;
+  font-size: 5em;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+  padding: 1em 0;
+  text-align: center;
+}
