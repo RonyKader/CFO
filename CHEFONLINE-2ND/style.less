@@ -307,6 +307,11 @@ img{
     height: auto;
     border: none;
 }
+.btn.btn-default{
+  transition: all 0.9s ease 0s;
+    -moz-transition: all 0.9s ease 0s;
+    -webkit-transition: all 0.9s ease 0s;
+  }
 .float-left{float: left}
 .float-right{float: right}
 .hidden{overflow: hidden}
@@ -869,31 +874,6 @@ select:focus {
           z-index: 1;
         }
 
-        // .btn-1::after {
-        //   content: "";
-        //   position: absolute;
-        //   transition: all 0.3s ease 0s;
-        //   z-index: 1;
-        //   background: #fff none repeat scroll 0 0;
-        //   height: 0;
-        //   opacity: 0;
-        //   left: 50%;
-        //   top: 50%;
-        //   transform: translateX(-50%) translateY(-50%) rotate(45deg);
-        //   width: 100%;
-        //   transition: all 0.2s ease 0s;
-        //   z-index: -1;
-        // }
-        // .btn-1:hover::after{
-        //     height: 170%;
-        //     opacity: 1;
-        //     color: #ED1C3B;
-        // }
-        // .btn-1:hover.btn-black{
-        //     background: #ED1C3B;
-        //     border: 2px solid #58595B;
-        //     color: #ED1C3B;
-        // }
     }
     .search-area{
         .form-area{
@@ -1129,6 +1109,111 @@ select:focus {
 
 
 
+    /* ==========================================================================
+       COMING SOON PAGE
+       ========================================================================== */
+    .coming-cont > header{
+      padding: 4em 0em;
+      color: #D9443F;
+      font-weight: bold;
+    }
+    .img-404 {
+        padding: 1em 0;
+    }
+    .maincontent-404 > header{
+      padding: 1em 0em;
+      color: #D9443F;
+      font-weight: bold;
+      padding: 0em 1em 0;
+      display: none;
+    }
+    .coming-soon {
+      background: #fff;
+      border-bottom-left-radius: 2em;
+      border-top-right-radius: 2em;      
+      font-family: 'Oswald', sans-serif;
+      font-size: 5em;
+      margin-bottom: 0.1em;
+      margin-top: 0.1em;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+/* ==========================================================================
+   APP PAGE
+   ========================================================================== */
+  .app-area{
+    padding: 8em 0;
+    background: #fff;
+    .app-cont{
+      h2{ font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 3em; line-height: 1em; text-transform: uppercase; color: #5F574C; margin: 136px 0 0;}
+      h3{ font-family: 'Raleway', sans-serif; font-size: 3em; font-weight: 200; margin: 0; text-transform: uppercase; margin: 0 0 69px; }
+      p { font-family: "Raleway",sans-serif; font-size: 1.5em; font-weight: 300;
+        a{ color: red; text-decoration: underline; padding-right: .3em; display: inline-block;}
+       }
+    }
+    .iphone-app{
+      .list-unstyled.app-icon li {
+        margin-top: 1.1em;
+        text-align: center;
+        .bar-wh img {
+          margin-top: 0px;
+          width: 123px;
+          height: 123px;
+        }
+        .bar-whh img { margin-top: 1px; }
+      }
+    }
+
+    .app-img { margin-bottom: 2em; }
+  }
+
+  /* ==========================================================================
+      CONTACT US PAGE
+     ========================================================================== */
+  .contact-area{
+    background: #fff;
+    font-family: 'Oswald', sans-serif;
+    padding: 2em 0 0;
+    p{font-size: 1em;}
+    .contact-content {
+        margin-bottom: 4em;
+        h2 { color: #58595b; font-family: 'Oswald', sans-serif; font-size: 1.8em; font-weight: 600; line-height: 1em; margin: 0.7em 0 1em;  }
+        .con-box {
+            b{ color: #000; font-size: 1.2em; font-weight: 500; font-family: 'Oswald', sans-serif;}
+          } 
+
+        .con-box ul li { font-size: 0.9em; }         
+        .con-box ul li a{ font-size: 0.9em; color: #58595b}   
+        .con-box h4 { color: #58595b; font-size: 1.1em; font-weight: bold; margin: 0 0 0.3em; font-family: 'Oswald', sans-serif;}      
+      
+    }
+
+    .contact-form{
+      .contact-details{
+        h2 { color: #58595b; font-family: 'Oswald', sans-serif; font-size: 1.8em; font-weight: 600; line-height: 1em; margin: 0.7em 0 1em;  }
+      }
+      .conmodify-details .control-label { color: #58595b; font-size: 1.2em; font-weight: normal;  }
+      .form-control{
+        height: 48px;
+      }
+      textarea.form-control{height: 100px;}
+      .btn.btn-default{
+        background: #ED1C3B none repeat scroll 0 0;
+        color: #fff;
+        font-size: 1.5em;
+        height: 48px;
+        width: 100%;
+        border: 2px solid #ED1C3B;
+        &:hover{
+          background: #fff;
+          color: #ED1C3B;
+          border: 2px solid #ED1C3B;
+        }
+      }
+    }
+  
+  }
 
 /* ==========================================================================
     FOOTER SECTION
@@ -1167,32 +1252,19 @@ select:focus {
      -webkit-transition: all 0.9s ease 0s;
     }
    }
-   
-// Comming soon Page
-.coming-cont > header{
-  padding: 4em 0em;
-  color: #D9443F;
-  font-weight: bold;
+ /* ==========================================================================
+    Scroll to Top Css
+    ========================================================================== */
+#back-top {
+  position: fixed;
+  bottom: 58px;
+  right: 0px;
+  color: #ddd;
+  z-index: 9999;
 }
-.img-404 {
-    padding: 1em 0;
-}
-.maincontent-404 > header{
-  padding: 1em 0em;
-  color: #D9443F;
-  font-weight: bold;
-  padding: 0em 1em 0;
-  display: none;
-}
-.coming-soon {
-  background: #fff;
-  border-bottom-left-radius: 2em;
-  border-top-right-radius: 2em;
-  
-  font-family: 'Oswald', sans-serif;
-  font-size: 5em;
-  margin-bottom: 0.1em;
-  margin-top: 0.1em;
-  padding: 1em 0;
-  text-align: center;
+ 
+#back-top a img {
+  height: 45px;
+  width: 45px;
+  z-index: 9999999;
 }

@@ -28,17 +28,6 @@
 <script src="js/html5shiv.js"></script>
 <script src="js/respond.min.js"></script>
 <![endif]-->
-<style>
-    .header-top .social-head .socialhead-nav .fa{
-        
-    }
-    .header-top .social-head .socialhead-nav .fa-facebook:hover{
-        
-    }
-    .header-top .social-head .socialhead-nav .fa-facebook:hover{
-        background: red;
-    }
-</style>
 
     </head>
     <body>
@@ -795,6 +784,9 @@
 
 <!-- START OF FOOTER AREA -->
     <footer class="footer-area">
+    <div id="back-top">
+     <a href=""><img src="images/top-arrow.png" height="20" width="20"></a>
+    </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -840,6 +832,7 @@
         </div>
     </div>
   </div>
+
   </footer>
 
 <!-- END OF FOOTER AREA -->
@@ -852,41 +845,30 @@
         <script src="js/custom.js"></script>
 
         <script>
-        $(document).ready(function(){
-                $("#kader").masonry();
-
+        $(document).ready(function(){         
+                // hide #back-top first
+                $("#back-top").hide();               
+                // fade in #back-top
+                $(function () {
+                        $(window).scroll(function () {
+                                if ($(this).scrollTop() > 100) {
+                                        $('#back-top').fadeIn();
+                                } else {
+                                        $('#back-top').fadeOut();
+                                }
+                        });
+         
+                        // scroll body to 0px on click
+                        $('#back-top a').click(function () {
+                                $('body,html').animate({
+                                        scrollTop: 0
+                                }, 1800);
+                                return false;
+                        });
                 });
-        jQuery(document).ready(function() {
-
-            var cartOffset = jQuery(".cart-area").offset().top;
-            jQuery(window).scroll(function(){
-            var scrollrk = jQuery(window).scrollTop();
-
-                if ( scrollrk >= cartOffset ) {
-                    jQuery(".cart-area").addClass("fixed");
-                }else{
-                    jQuery(".cart-area").removeClass("fixed");
-
-                }
-
-            });
-
-
+         
         });
-        $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-              var target = $(this.hash);
-              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-              if (target.length) {
-                $('html,body').animate({
-                  scrollTop: target.offset().top
-                }, 1000);
-                return false;
-              }
-            }
-          });
-        });
+
         </script>
 
     </body>
