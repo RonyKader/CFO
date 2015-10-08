@@ -9,7 +9,7 @@
         <title>Chefonline | Development</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
 
@@ -64,11 +64,263 @@
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div class="register-area">
                     <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="">Login</a></li>
-                        <li><a href="">Sign Up</a></li>
+                        <li><a href="#loginModal" data-toggle="modal">Login</a></li>
+                        <li><a href="#regestationModal" data-toggle="modal">Sign Up</a></li>
                     </ul>
                 </div>
             </div>
+           <!--START OF  LOGIN MODAL AREA -->
+
+           <div id="loginModal" class="modal fade">
+               <div class="modal-dialog">
+                   <div class="modal-content">
+                       <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                           <h4 class="modal-title">Login information</h4>
+                       </div>
+                       <div class="modal-body">
+                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                           <div class="modify-details">
+
+                               <form class="form-horizontal login-modal">
+
+                                 <div class="form-group">
+                                   <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Email Address</label>
+                                   <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                     <input type="email" class="form-control form-custom" id="inputEmail3" placeholder="Enter your email address">
+                                   </div>
+                                 </div>
+
+                                 <div class="form-group">
+                                   <label for="inputPassword3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Password</label>
+                                   <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                     <input type="password" class="form-control form-custom" id="inputPassword3" placeholder="Inter your password">
+                                   </div>
+                                 </div>
+                                 
+
+                                 <div class="form-group">
+                                   <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                     <input type="submit" class="btn btn-default btn-width" id="submit" value="SIGN IN">
+                                   </div>
+                                   <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                     <a class="forgot" href="#forgotModal" data-toggle="modal">Forgot Password ?</a>
+                                   </div>
+                                 </div>
+                               </form>
+                           </div>                                
+                       </div>
+                          <div class="clearfix"></div>
+
+                       </div>
+                       <div class="modal-footer">
+                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!--END OF  LOGIN MODAL AREA -->
+
+           <!-- START OF FORGOT PASSWORD AREA -->
+           <div id="forgotModal" class="modal fade">
+               <div class="modal-dialog">
+                   <div class="modal-content">
+                       <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                           <h4 class="modal-title">Forgot password</h4>
+                       </div>
+                       <div class="modal-body">
+                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                           <div class="modify-details">
+
+                               <form class="form-horizontal login-modal">
+
+                                 <div class="form-group">
+                                   <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Email Address</label>
+                                   <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                     <input type="email" class="form-control form-custom" id="inputEmail3" placeholder="Enter your email address">
+                                   </div>
+                                 </div>                                 
+
+                                 <div class="form-group">
+                                   <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                     <input type="submit" class="btn btn-default btn-width" id="submit" value="RESET PASSWORD">
+                                   </div>
+                                   
+                                 </div>
+                               </form>
+                           </div>                                
+                       </div>
+                          <div class="clearfix"></div>
+
+                       </div>
+                       <div class="modal-footer">
+                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!--END OF  LOGIN MODAL AREA -->
+           <!-- START OF FORGOT PASSWORD AREA -->
+
+            <!-- START OF REGISTATION MODAL AREA -->
+           <div id="regestationModal" class="modal fade">
+               <div class="modal-dialog modal-lg">
+                   <div class="modal-content">
+                       <div class="modal-header">
+                           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                           <h4 class="modal-title">Registration for order</h4>
+                       </div>
+                       <div class="modal-body">
+                           
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="modify-details">
+
+                                    <form class="form-horizontal">
+
+                                      <div class="form-group">
+                                        <label for="inputEmail3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">First Name</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                          <input type="email" class="form-control form-custom" id="inputEmail3" placeholder="Rimon">
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group">
+                                        <label for="inputPassword3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Last Name</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                          <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="Rahman">
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group">
+                                        <label for="inputEmail3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Email Address</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                          <input type="email" class="form-control form-custom" id="inputEmail3" placeholder="rimon@imedialondon">
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group">
+                                        <label for="inputPassword3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Mobile No</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                          <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="08854 208 023">
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group">
+                                        <label for="inputEmail3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Telephone No</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                          <input type="text" class="form-control form-custom" id="inputEmail3" placeholder="020 8452 5462">
+                                        </div>
+                                      </div>
+                                      <div class="form-group">
+                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                          <p>
+                                              Please fill the date of birth or Aniversary date and receive offers for that specially occassion.
+                                          </p>
+                                        </div>
+                                      </div>
+
+                                       <div class="form-group">
+                                          <label for="inputPassword3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">D/O/B</label>
+                                          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                            <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="14">
+                                          </div>
+                                          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                            <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="Aug">
+                                          </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="inputEmail3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Anniversary Date</label>
+                                          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                            <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="15">
+                                          </div>
+                                          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                            <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="Nov">
+                                          </div>
+                                        </div>
+
+                                      <div class="form-group">
+                                        <label for="inputPassword3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Postcode</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                          <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="E9 7DD">
+                                        </div>
+                                      </div>
+                                    </form>
+                                </div>                                
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div class="modify-details">
+
+                                    <form class="form-horizontal">
+
+                                      <div class="form-group">
+                                        <label for="inputPassword3" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">Address 1</label>
+                                          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="17 Norwich Road">
+                                          </div>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                          <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">Address 2</label>
+                                          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <input type="text" class="form-control form-custom" id="inputEmail3" placeholder="Forest Gate">
+                                          </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                          <label for="inputPassword3" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">Town / City</label>
+                                          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="London">
+                                          </div>
+                                        </div>
+                                        <div class="form-group">
+                                          <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">County</label>
+                                          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                            <input type="text" class="form-control form-custom" id="inputEmail3" placeholder="County">
+                                          </div>
+                                        </div>
+
+                                        <div class="form-group">
+
+                                        <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                            <ul class="list-unstyled terms">
+                                                <li><input type="checkbox" name="" id="rememberme" value="rememberme"><label for="rememberme">Remember me</label></li>
+                                                <li><input type="checkbox" name="" id="iaccept" value="iaccept"><label for="iaccept">I Accept the </label><a href="terms.html" target="_blank">T&C</a></li>
+                                            </ul>
+                                        </div>
+
+
+                                          <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                            <input type="submit" class="btn btn-default btn-width" id="submit" value="CREATE MY ACCOUNT">
+                                          </div>
+                                          
+                                        </div>
+
+                                        
+
+                                      
+                                    </form>
+                                </div>                                
+                            </div>
+
+
+                        <div class="clearfix"></div>
+                       </div>
+                       <div class="modal-footer">
+                           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+
+            <!-- END OF REGISTATION MODAL AREA -->
+
+
+
+
             <!-- End of Register area -->
 
             <div class="col-lg-10 col-md-10 col-md-offset-1 col-xs-12">
@@ -799,9 +1051,9 @@
                     </div>
                     <div class="footer-link">
                         <ul class="list-unstyled">
-                            <li><a href="#">Price Promise</a></li>
-                            <li><a href="#">Suggest a takeaway</a></li>
-                            <li><a href="#">Restaurant sign up</a></li>
+                            <li><a href="coming.html">Price Promise</a></li>
+                            <li><a href="coming.html">Suggest a takeaway</a></li>
+                            <li><a href="coming.html">Restaurant sign up</a></li>
                         </ul>
                     </div>
                 </div>
@@ -809,12 +1061,12 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                 <div class="footer-link">
                     <ul class="list-unstyled">
-                        <li><a href="#">Privacy policy / T&Cs</a></li>
-                        <li><a href="#">How do we use cookies?</a></li>
-                        <li><a href="#">Contact us | FAQs</a></li>
-                        <li><a href="#">Jobs</a></li>
-                        <li><a href="#">Mobile Apps</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="coming.html">Privacy policy / T&Cs</a></li>
+                        <li><a href="coming.html">How do we use cookies?</a></li>
+                        <li><a href="contact.html">Contact us | FAQs</a></li>
+                        <li><a href="coming.html">Jobs</a></li>
+                        <li><a href="app.html">Mobile Apps</a></li>
+                        <li><a href="coming.html">Blog</a></li>
                     </ul>
                 </div>
             </div>

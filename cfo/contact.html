@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chefonline | Development</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/uikit.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/slicknav.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+<!-- START OF HEADER SECTION -->
+    <header class="custom-headerarea">
+        <div class="container">
+            <div class="row">
+                <!-- START OF SOCIAL SECTION -->
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="custom-social">
+                        <ul class="list-unstyled list-inline">
+                            <li><a href="https://www.facebook.com/ChefOnlineUK" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/chefonlineuk" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- END OF SOCIAL SECTION -->
+
+                <!-- START OF LOGO SECTION -->
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="custom-logo text-center">
+                        <a href="#"><img src="images/logo1.png" alt="Chefonline" ></a>
+                    </div>
+                </div>
+                <!-- END OF LOGO SECTION -->
+
+                <!-- START OF MENU SECTION -->
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="custom-menu">
+                        <ul class="list-unstyled list-inline text-right">
+                            <li><a href="#loginModal" data-toggle="modal">Login</a></li>
+                            <li><a href="#regestationModal" data-toggle="modal">Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- END OF MENU SECTION -->
+
+                <!--START OF  LOGIN MODAL AREA -->
+
+                <div id="loginModal" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Login information</h4>
+                            </div>
+                            <div class="modal-body">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="modify-details">
+
+                                    <form class="form-horizontal login-modal">
+
+                                      <div class="form-group">
+                                        <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Email Address</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                          <input type="email" class="form-control form-custom" id="inputEmail3" placeholder="Enter your email address">
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group">
+                                        <label for="inputPassword3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Password</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                          <input type="password" class="form-control form-custom" id="inputPassword3" placeholder="Inter your password">
+                                        </div>
+                                      </div>
+                                      
+
+                                      <div class="form-group">
+                                        <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                          <input type="submit" class="btn btn-default btn-width" id="submit" value="SIGN IN">
+                                        </div>
+                                        <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                          <a class="forgot" href="#forgotModal" data-toggle="modal">Forgot Password ?</a>
+                                        </div>
+                                      </div>
+                                    </form>
+                                </div>                                
+                            </div>
+                               <div class="clearfix"></div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END OF  LOGIN MODAL AREA -->
+
+                <!-- START OF FORGOT PASSWORD AREA -->
+                <div id="forgotModal" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Forgot password</h4>
+                            </div>
+                            <div class="modal-body">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="modify-details">
+
+                                    <form class="form-horizontal login-modal">
+
+                                      <div class="form-group">
+                                        <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Email Address</label>
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                          <input type="email" class="form-control form-custom" id="inputEmail3" placeholder="Enter your email address">
+                                        </div>
+                                      </div>                                 
+
+                                      <div class="form-group">
+                                        <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                          <input type="submit" class="btn btn-default btn-width" id="submit" value="RESET PASSWORD">
+                                        </div>
+                                        
+                                      </div>
+                                    </form>
+                                </div>                                
+                            </div>
+                               <div class="clearfix"></div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END OF  LOGIN MODAL AREA -->
+                <!-- START OF FORGOT PASSWORD AREA -->
+
+                 <!-- START OF REGISTATION MODAL AREA -->
+                <div id="regestationModal" class="modal fade">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Registration for order</h4>
+                            </div>
+                            <div class="modal-body">
+                                
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                     <div class="modify-details">
+
+                                         <form class="form-horizontal">
+
+                                           <div class="form-group">
+                                             <label for="inputEmail3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">First Name</label>
+                                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                               <input type="email" class="form-control form-custom" id="inputEmail3" placeholder="Rimon">
+                                             </div>
+                                           </div>
+
+                                           <div class="form-group">
+                                             <label for="inputPassword3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Last Name</label>
+                                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                               <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="Rahman">
+                                             </div>
+                                           </div>
+
+                                           <div class="form-group">
+                                             <label for="inputEmail3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Email Address</label>
+                                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                               <input type="email" class="form-control form-custom" id="inputEmail3" placeholder="rimon@imedialondon">
+                                             </div>
+                                           </div>
+
+                                           <div class="form-group">
+                                             <label for="inputPassword3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Mobile No</label>
+                                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                               <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="08854 208 023">
+                                             </div>
+                                           </div>
+
+                                           <div class="form-group">
+                                             <label for="inputEmail3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Telephone No</label>
+                                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                               <input type="text" class="form-control form-custom" id="inputEmail3" placeholder="020 8452 5462">
+                                             </div>
+                                           </div>
+                                           <div class="form-group">
+                                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                               <p>
+                                                   Please fill the date of birth or Aniversary date and receive offers for that specially occassion.
+                                               </p>
+                                             </div>
+                                           </div>
+
+                                            <div class="form-group">
+                                               <label for="inputPassword3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">D/O/B</label>
+                                               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                                 <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="14">
+                                               </div>
+                                               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                                 <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="Aug">
+                                               </div>
+                                             </div>
+
+                                             <div class="form-group">
+                                               <label for="inputEmail3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Anniversary Date</label>
+                                               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                                 <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="15">
+                                               </div>
+                                               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                                 <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="Nov">
+                                               </div>
+                                             </div>
+
+                                           <div class="form-group">
+                                             <label for="inputPassword3" class="col-lg-4 col-md-4 col-sm-4 col-xs-12 control-label">Postcode</label>
+                                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                               <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="E9 7DD">
+                                             </div>
+                                           </div>
+                                         </form>
+                                     </div>                                
+                                 </div>
+
+                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                     <div class="modify-details">
+
+                                         <form class="form-horizontal">
+
+                                           <div class="form-group">
+                                             <label for="inputPassword3" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">Address 1</label>
+                                               <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                                 <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="17 Norwich Road">
+                                               </div>
+                                             </div>
+
+
+                                             <div class="form-group">
+                                               <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">Address 2</label>
+                                               <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                                 <input type="text" class="form-control form-custom" id="inputEmail3" placeholder="Forest Gate">
+                                               </div>
+                                             </div>
+
+                                             <div class="form-group">
+                                               <label for="inputPassword3" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">Town / City</label>
+                                               <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                                 <input type="text" class="form-control form-custom" id="inputPassword3" placeholder="London">
+                                               </div>
+                                             </div>
+                                             <div class="form-group">
+                                               <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-12 control-label">County</label>
+                                               <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                                 <input type="text" class="form-control form-custom" id="inputEmail3" placeholder="County">
+                                               </div>
+                                             </div>
+
+                                             <div class="form-group">
+
+                                             <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                                 <ul class="list-unstyled terms">
+                                                     <li><input type="checkbox" name="" id="rememberme" value="rememberme"><label for="rememberme">Remember me</label></li>
+                                                     <li><input type="checkbox" name="" id="iaccept" value="iaccept"><label for="iaccept">I Accept the </label><a href="terms.html" target="_blank">T&C</a></li>
+                                                 </ul>
+                                             </div>
+
+
+                                               <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-6 col-md-6 col-sm-6 col-xs-8 col-lg-6 col-md-6 col-sm-6 col-xs-8">
+                                                 <input type="submit" class="btn btn-default btn-width" id="submit" value="CREATE MY ACCOUNT">
+                                               </div>
+                                               
+                                             </div>
+
+                                             
+
+                                           
+                                         </form>
+                                     </div>                                
+                                 </div>
+
+
+                             <div class="clearfix"></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- END OF REGISTATION MODAL AREA -->
+            </div>
+        </div>
+    </header>
+<!-- END OF HEADER SECTION -->
+<section class="contact-area">
+    <div class="container">
+        <div class="row">
+          <!-- START OF CONTACT CONTENT AREA -->
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="row">
+                  <div class="contact-content">
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                          <address>
+                              <h2>Address</h2>
+                              <p>218A Brick Lane London, E1 6SA </p>
+                          </address>
+                      </div>
+                      <!-- End of 1st address -->
+
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">                          
+                         <div class="con-box">
+                              <h2>Sales and Marketing</h2>
+                             <ul class="list-unstyled">
+                                 <li><b>Mob: </b> <a href="tel:07770040404"> 0777 004 0404</a></li>
+                                 <li><b>Tel: </b> <a href="tel:02035985956"> 0203 598 5956</a></li>
+                                 <li><b>Email: </b> <a href="mailto:sales@chefonline.co.uk"> sales@chefonline.co.uk</a></li>
+                             </ul>
+                         </div>
+                      </div>
+                      <!-- End of 2nd Address -->
+                        
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">                          
+                         <div class="con-box">
+                              <h2>Office opening hours</h2>
+                             <ul class="list-unstyled">
+                                 <li><b>Monday to Friday: </b> 10am to 6pm</li>
+                                 <li><b>Saturday: </b> 11am to 3pm</li>
+                             </ul>
+                         </div>
+                      </div>
+                      <!-- End of 3rd Address -->
+
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">                          
+                         <div class="con-box">
+                              <h2>Customer Support</h2>
+                             <ul class="list-unstyled">
+                                 <li><b>Tel: </b> <a href="tel:0330 380 1000"> 0330 380 1000</a></li>
+                                 <li><b>Email: </b> <a href="mailto:support@chefonline.co.uk"> support@chefonline.co.uk</a></li>
+                             </ul>
+                         </div>
+                      </div>
+                      <!-- End of 4th Address -->
+
+                      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">                          
+                         <div class="con-box">
+                              <h2>Office opening hours</h2>
+
+                              <h4>Customer Support: </h4>
+                             <ul class="list-unstyled">
+                                 <li><b>Monday to Sunday: </b> 7am to 11pm</li>
+                             </ul>
+
+                              <h4>General Enquire:</h4>
+                             <ul class="list-unstyled">
+                                 <li><b>Monday to Friday: </b> 7am to 4pm</li>
+                             </ul>
+
+                              <h4>Web Development Team: </h4>
+                             <ul class="list-unstyled">
+                                 <li><b>Monday to Friday: </b> 7am to 4pm</li>
+                             </ul>
+
+                              <h4>Printer Support Team: </h4>
+                             <ul class="list-unstyled">
+                                 <li><b>Monday to Friday: </b> 7am to 4pm</li>
+                             </ul>
+                         </div>
+                      </div>
+                      <!-- End of 3rd Address -->
+                         
+
+<div class="clearfix"></div>
+                  </div>
+              </div>
+           </div>  
+           <!-- END OF CONTACT CONTENT AREA -->
+    
+            <!-- START OF CONTACT FORM AREA -->
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="row">
+                    <div class="contact-form">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="contact-details">
+                            <h2>General Inquiry <span><a href="#"></a></span></h2>
+                        </div>
+                    </div>
+                    <!-- End of Edit details area -->
+                        <div class="clearfix"></div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="conmodify-details">
+
+                                <form class="form-horizontal">
+
+                                  <div class="form-group">
+                                    <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Name</label>
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
+                                      <input type="text" class="form-control" id="inputEmail3" placeholder="Rimon Rahman">
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Email Address</label>
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
+                                      <input type="email" class="form-control" id="inputEmail3" placeholder="rimon@imedialondon">
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Telephone No</label>
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
+                                      <input type="text" class="form-control" id="inputEmail3" placeholder="020 8452 5462">
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    <label for="inputEmail3" class="col-lg-3 col-md-3 col-sm-3 col-xs-4 control-label">Telephone No</label>
+                                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-8">
+                                      <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                    
+                                    <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-4 col-lg-9 col-md-9 col-sm-9 col-xs-8">
+                                      <input class="btn btn-default" type="submit" value="Submit">
+                                    </div>
+                                  </div>
+
+
+                         
+
+                               
+                                </form>
+                            </div>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END OF CONTACT FORM AREA -->
+            <!-- START OF MAP AREA -->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                
+            </div>
+            <!-- END OF MAP AREA -->
+        </div>
+    </div>
+    <div class="map-area">
+        <iframe width="100%" height="400px" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2482.436577558544!2d-0.0697623!3d51.5235519!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb7eb9392b7%3A0x3a3316a561d5af89!2s218+Brick+Ln%2C+London%2C+UK!5e0!3m2!1sen!2s!4v1423660928541"></iframe>
+    </div>
+</section>
+
+
+<!-- START OF FOOTER AREA -->
+    <footer class="footer-area">
+    <div id="back-top">
+     <a href=""><img src="images/top-arrow.png" height="20" width="20"></a>
+    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="footer-link">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Log in</a></li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#">My account</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link">
+                        <ul class="list-unstyled">
+                            <li><a href="coming.html">Price Promise</a></li>
+                            <li><a href="coming.html">Suggest a takeaway</a></li>
+                            <li><a href="coming.html">Restaurant sign up</a></li>
+                        </ul>
+                    </div>
+                </div>
+        <!-- end of Footer Link  -->
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="footer-link">
+                    <ul class="list-unstyled">
+                        <li><a href="coming.html">Privacy policy / T&Cs</a></li>
+                        <li><a href="coming.html">How do we use cookies?</a></li>
+                        <li><a href="contact.html">Contact us | FAQs</a></li>
+                        <li><a href="coming.html">Jobs</a></li>
+                        <li><a href="app.html">Mobile Apps</a></li>
+                        <li><a href="coming.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        <!-- end of Footer Link  -->
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="sigin-up text-right">
+                <h2>Keep in touch, <h2/><h2>Join our newsletter</h2>
+                <form>
+                  <div class="form-group">                    
+                    <input type="email" class="form-control custom-sign" id="exampleInputEmail1" placeholder="Your Email Address">
+                  </div>
+                  <button type="submit" class="btn btn-default custom-signbtn">JOIN NOW</button>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  </footer>
+
+<!-- END OF FOOTER AREA -->
+
+            <script src="js/vendor/jquery-1.10.2.min.js"></script>
+            <script src="js/masonry.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/plugins.js"></script>        
+            <script src="js/jquery.slicknav.min.js"></script>
+            <script src="js/custom.js"></script>
+
+            <script>
+            $(document).ready(function(){         
+                    // hide #back-top first
+                    $("#back-top").hide();               
+                    // fade in #back-top
+                    $(function () {
+                            $(window).scroll(function () {
+                                    if ($(this).scrollTop() > 100) {
+                                            $('#back-top').fadeIn();
+                                    } else {
+                                            $('#back-top').fadeOut();
+                                    }
+                            });
+             
+                            // scroll body to 0px on click
+                            $('#back-top a').click(function () {
+                                    $('body,html').animate({
+                                            scrollTop: 0
+                                    }, 1800);
+                                    return false;
+                            });
+                    });
+             
+            });
+
+            </script>
+
+        </body>
+    </html>

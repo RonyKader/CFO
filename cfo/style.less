@@ -479,6 +479,32 @@ img{
 }
 
 /* ==========================================================================
+   LOGIN AND REGISTATION PAGE AREA
+   ========================================================================== */
+    #loginModal,#forgotModal,#regestationModal{
+      .login-modal { margin-top: 1.5em; }
+      font-family: 'Oswald', sans-serif;
+      .modal-header{ background: #ED1C3B; color: #fff; font-family: 'Oswald', sans-serif;
+        h4{ font-family: 'Oswald', sans-serif; font-weight: 600;}
+        .close { color: #fff; margin-top: -2px; opacity: 0;
+        }
+     }
+     .btn-width { background: #ED1C3B; color: #fff; font-weight: bold; width: 51%;  }
+     .form-control.form-custom { height: 47px; }
+     .control-label{ color: #58595B; font-family: 'Oswald', sans-serif; font-weight: 400;}
+     .forgot{ color: #58595B; margin-top: .5em; display: inline-block;}
+    }
+    #regestationModal{
+      .modal-body { padding-top: 2.4em; }
+      .form-control.form-custom { height: 41px; }
+       p { color: #58595b; font-family: 'Oswald', sans-serif; font-size: 1em; line-height: 1.2em; padding-left: 1.5em; }
+       .btn-width { background: #ED1C3B; color: #fff; font-weight: bold; width: 100%;  }
+       input[type="checkbox"] { margin-right: 0.6em; vertical-align: -1px; }
+       .terms li label { color: #58595b; font-weight: 500; }
+       .terms li a { color: red; font-size: 1em; padding-left: 0.4em; }
+    }
+
+/* ==========================================================================
    BEST RESTAURANT AREA
    ========================================================================== */
    .best-restaurants {
@@ -548,9 +574,9 @@ img{
          }
          .rest-offer p{ font-size: .9em; margin: 0;  margin-top: .1em; font-family: Raleway;}
          .rating-content{
-            font-family: ''Oswald', sans-serif', sans-serif;
+            font-family: 'Oswald', sans-serif;
             p{
-                font-family: ''Oswald', sans-serif', sans-serif;
+                font-family: 'Oswald', sans-serif;
                   margin-bottom: 0.2em;                
             }
             ul{margin-bottom: 0;}
@@ -1143,10 +1169,10 @@ select:focus {
    APP PAGE
    ========================================================================== */
   .app-area{
-    padding: 8em 0;
-    background: #fff;
+    background: #fff none repeat scroll 0 0;
+    padding: 5em 0 2em;
     .app-cont{
-      h2{ font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 3em; line-height: 1em; text-transform: uppercase; color: #5F574C; margin: 136px 0 0;}
+      h2{ font-family: 'Raleway', sans-serif; font-weight: 500; font-size: 3em; line-height: 1em; text-transform: uppercase; color: #5F574C; margin: 1.2em 0em 0;}
       h3{ font-family: 'Raleway', sans-serif; font-size: 3em; font-weight: 200; margin: 0; text-transform: uppercase; margin: 0 0 69px; }
       p { font-family: "Raleway",sans-serif; font-size: 1.5em; font-weight: 300;
         a{ color: red; text-decoration: underline; padding-right: .3em; display: inline-block;}
@@ -1165,7 +1191,7 @@ select:focus {
       }
     }
 
-    .app-img { margin-bottom: 2em; }
+    .app-img { margin-bottom: 2em; img{ width: 100%;}}
   }
 
   /* ==========================================================================
@@ -1214,6 +1240,22 @@ select:focus {
     }
   
   }
+
+
+  /* ==========================================================================
+      TERMS AND CONDITION PAGE
+     ========================================================================== */
+  .terms-area{
+    background: #fff none repeat scroll 0 0;
+    padding: 2em 0;
+    header > h2 { color: #58595b; font-family: 'Oswald', sans-serif; margin: 1em 0 0; text-transform: uppercase; font-size: 2em; font-weight: 500; }
+    .terms-content{
+       h2 { border-bottom: 1px solid #ccc; color: #58595b; font-family: 'Oswald', sans-serif;  font-size: 1.3em; font-weight: 200; margin: 0.3em 0 0.6em; padding-bottom: 0.3em;}
+       h3 { color: #58595b; font-family: 'Oswald', sans-serif;  font-size: 1.3em; font-weight: 200; margin: 0em 0 0.3em;}
+       p { color: #58595b; font-family: 'Raleway', sans-serif; line-height: 1.5em; padding-left: 1.2em; text-align: justify; margin-bottom: 1em; margin-top: 1em; }
+    }
+  }
+
 
 /* ==========================================================================
     FOOTER SECTION

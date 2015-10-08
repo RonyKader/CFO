@@ -438,6 +438,98 @@ img {
   background: #DDD;
 }
 /* ==========================================================================
+   LOGIN AND REGISTATION PAGE AREA
+   ========================================================================== */
+#loginModal,
+#forgotModal,
+#regestationModal {
+  font-family: 'Oswald', sans-serif;
+}
+#loginModal .login-modal,
+#forgotModal .login-modal,
+#regestationModal .login-modal {
+  margin-top: 1.5em;
+}
+#loginModal .modal-header,
+#forgotModal .modal-header,
+#regestationModal .modal-header {
+  background: #ED1C3B;
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+}
+#loginModal .modal-header h4,
+#forgotModal .modal-header h4,
+#regestationModal .modal-header h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+#loginModal .modal-header .close,
+#forgotModal .modal-header .close,
+#regestationModal .modal-header .close {
+  color: #fff;
+  margin-top: -2px;
+  opacity: 0;
+}
+#loginModal .btn-width,
+#forgotModal .btn-width,
+#regestationModal .btn-width {
+  background: #ED1C3B;
+  color: #fff;
+  font-weight: bold;
+  width: 51%;
+}
+#loginModal .form-control.form-custom,
+#forgotModal .form-control.form-custom,
+#regestationModal .form-control.form-custom {
+  height: 47px;
+}
+#loginModal .control-label,
+#forgotModal .control-label,
+#regestationModal .control-label {
+  color: #58595B;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+#loginModal .forgot,
+#forgotModal .forgot,
+#regestationModal .forgot {
+  color: #58595B;
+  margin-top: .5em;
+  display: inline-block;
+}
+#regestationModal .modal-body {
+  padding-top: 2.4em;
+}
+#regestationModal .form-control.form-custom {
+  height: 41px;
+}
+#regestationModal p {
+  color: #58595b;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+  padding-left: 1.5em;
+}
+#regestationModal .btn-width {
+  background: #ED1C3B;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+}
+#regestationModal input[type="checkbox"] {
+  margin-right: 0.6em;
+  vertical-align: -1px;
+}
+#regestationModal .terms li label {
+  color: #58595b;
+  font-weight: 500;
+}
+#regestationModal .terms li a {
+  color: red;
+  font-size: 1em;
+  padding-left: 0.4em;
+}
+/* ==========================================================================
    BEST RESTAURANT AREA
    ========================================================================== */
 .best-restaurants {
@@ -530,10 +622,10 @@ img {
   font-family: Raleway;
 }
 .best-restaurants .restaurant-item .rating-content {
-  font-family: '' Oswald ', sans-serif', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .best-restaurants .restaurant-item .rating-content p {
-  font-family: '' Oswald ', sans-serif', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin-bottom: 0.2em;
 }
 .best-restaurants .restaurant-item .rating-content ul {
@@ -1190,8 +1282,8 @@ select:focus {
    APP PAGE
    ========================================================================== */
 .app-area {
-  padding: 8em 0;
-  background: #fff;
+  background: #fff none repeat scroll 0 0;
+  padding: 5em 0 2em;
 }
 .app-area .app-cont h2 {
   font-family: 'Raleway', sans-serif;
@@ -1200,7 +1292,7 @@ select:focus {
   line-height: 1em;
   text-transform: uppercase;
   color: #5F574C;
-  margin: 136px 0 0;
+  margin: 1.2em 0em 0;
 }
 .app-area .app-cont h3 {
   font-family: 'Raleway', sans-serif;
@@ -1235,6 +1327,9 @@ select:focus {
 }
 .app-area .app-img {
   margin-bottom: 2em;
+}
+.app-area .app-img img {
+  width: 100%;
 }
 /* ==========================================================================
       CONTACT US PAGE
@@ -1309,6 +1404,46 @@ select:focus {
   background: #fff;
   color: #ED1C3B;
   border: 2px solid #ED1C3B;
+}
+/* ==========================================================================
+      TERMS AND CONDITION PAGE
+     ========================================================================== */
+.terms-area {
+  background: #fff none repeat scroll 0 0;
+  padding: 2em 0;
+}
+.terms-area header > h2 {
+  color: #58595b;
+  font-family: 'Oswald', sans-serif;
+  margin: 1em 0 0;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 500;
+}
+.terms-area .terms-content h2 {
+  border-bottom: 1px solid #ccc;
+  color: #58595b;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  font-weight: 200;
+  margin: 0.3em 0 0.6em;
+  padding-bottom: 0.3em;
+}
+.terms-area .terms-content h3 {
+  color: #58595b;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  font-weight: 200;
+  margin: 0em 0 0.3em;
+}
+.terms-area .terms-content p {
+  color: #58595b;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5em;
+  padding-left: 1.2em;
+  text-align: justify;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 /* ==========================================================================
     FOOTER SECTION
