@@ -291,10 +291,9 @@ textarea {
    custom styles
    ========================================================================== */
 body{
-    font-family: Arial;
     font-size: 14px;
     line-height: 18px;
-    background-color: #E8E9E9;
+    background-color: #fff;
     font-family: 'Raleway', sans-serif;
 }
 a:hover, a:focus{outline: none;border: none; text-decoration: none;}
@@ -1256,7 +1255,461 @@ select:focus {
     }
   }
 
+  /* ==========================================================================
+      FAQS PAGE
+     ========================================================================== */
+.faqs-area{
+     header > h2 {
+        color: #58595b;
+        font-family: "Oswald",sans-serif;
+        font-size: 2em;
+        font-weight: 500;
+        margin: 1.5em 0 1.5em;
+        text-transform: uppercase;
+      }
+      .panel-default > .chef-panel {
+        background-color: #ed1c3b;
+        border-color: #ddd;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5em;
+        padding: 1em 1em;
+      }
+      .fa.fa-hand-o-right {
+        padding-right: 0.4em;
+      }
+      .panel-body > p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1em;
+        line-height: 1.4em;
+      }
+}
 
+
+
+
+/* ==========================================================================
+    SUMMERY PAGE   HEADER SECTION
+   ========================================================================== */
+/*Main Title Area*/
+.main-title{
+    padding-top: 38px;
+    .entry-maintitle{
+        background: #3e062f none repeat scroll 0 0;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 20px;
+        padding: 18px 0 22px;
+        text-align: center;
+        margin-bottom: 10px;
+        h2{
+            font-family: 'Oswald', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 30px;
+            text-transform: uppercase;
+        }
+    }
+   }
+
+
+/*Order View Area*/
+.order-view{
+    .order-progress {
+      background: #3e062f none repeat scroll 0 0;
+      border-radius: 9px;
+      color: #fff;
+      margin-top: 15px;
+      padding-bottom: 13px;
+      padding-top: 22px;
+      text-align: center;
+       h2{
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 11px;
+        margin-top: 0;
+        font-family: 'Oswald', sans-serif;
+       }
+    
+        .custom-btn {
+          background: #990221 none repeat scroll 0 0;
+          border-color: #990221;
+          color: #fff;
+          font-family: "Oswald",sans-serif;
+          font-size: 1.5em;
+          margin: 0;
+          min-height: 2em;
+          min-width: 30%;
+          padding: 0.5em 1em;
+          text-decoration: none;
+          text-transform: uppercase;
+
+          &:hover{
+            background: #990221 none repeat scroll 0 0;
+            border-color: #990221;
+            color: #fff;
+
+          }
+        }
+
+    }
+}
+
+
+
+/*Order Info Area*/
+
+.order-info {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  /*padding-bottom: 15px;*/
+  /*padding-top: 15px;*/
+  .orderinfo-content {
+    background: #3e062f none repeat scroll 0 0;
+    border-radius: 9px;
+    color: #fff;
+    padding: 15px 26px;
+
+        .list-unstyled.custom-subheader {
+          margin-left: 15px;
+          margin-right: 20px;
+            li{
+                border-bottom: 1px solid #662c4e;
+                font-family: 'Oswald', sans-serif;
+                font-size: 16px;
+                line-height: 22px;
+                padding: 11px 0 10px;
+                span{
+                    margin-left: 20px;
+                }
+            }
+        }
+        .col-md-4.sub-li:last-child {
+           border-bottom: 0 none !important;
+        }
+        .col-md-4.sub-li {
+          position: relative;
+        }
+        .col-md-8.sub-li{
+            position: relative;
+            border-bottom: 0 none !important;
+        }
+        .col-md-4.sub-li::after {
+          background: #662c4e none repeat scroll 0 0;
+          bottom: 0;
+          content: "";
+          height: 58%;
+          position: absolute;
+          right: 19px;
+          top: 10px;
+          width: 1px;
+        }
+        .col-md-8.sub-li::after {
+          background: #662c4e none repeat scroll 0 0;
+          bottom: 0;
+          content: "";
+          height: 58%;
+          position: absolute;
+          right: 19px;
+          top: 10px;
+          width: 1px;
+        }
+
+        .col-md-4.sub-li.hide-after:after{
+            display: none;
+        }
+
+  }
+  .orderinfo-content td:last-child:after{
+      display: none;
+  }
+}
+
+
+/*Order Details Area*/
+.order-details {
+  background: #3f0630 none repeat scroll 0 0;
+  border-radius: 11px;
+  color: #fff;
+  padding: 0px;
+  margin-bottom: 15px;
+    h2{
+       border-bottom: 1px solid #662c4e;
+       font-family: 'Oswald', sans-serif;
+       font-size: 18px;
+       font-weight: bold;
+       line-height: 22px;
+       margin: 0 22px 0 21px;
+       padding-bottom: 7px;
+       padding-top: 19px;
+       text-transform: uppercase;
+       font-family: 'Oswald', sans-serif;
+    }
+    .table.custom-table {
+      background: #fff none repeat scroll 0 0;
+      color: #3f0630;      
+        .tr-bg {
+          background: #eeeeef none repeat scroll 0 0;
+        }
+
+      th{
+        background: #3f0630 none repeat scroll 0 0;
+        color: #fff;
+        padding-left: 22px;
+        font-family: 'Oswald', sans-serif;
+      }
+      td{
+       font-family: 'Oswald', sans-serif;
+       font-size: 14px;
+       line-height: 20px;
+       padding-left: 22px;
+
+       .plus-min{
+          li{
+            padding: 0;
+            a{
+              .fa-plus{ background: #78c60b; color: #fff; font-size: .6em; padding: .6em;}
+              .fa-minus{ background: #78c60b; color: #fff; font-size: .6em; padding: .6em;}
+              .fa-times{ background: red; color: #fff; font-size: .6em; padding: .6em;}
+            }
+          }
+       }
+      }
+    }
+
+    .list-unstyled.list-inline.pull-right.custom-ul {
+      margin-bottom: 16px;
+      margin-right: 14%;
+      li{
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 22px;
+      }
+    }
+}
+
+/*Offer Discount*/
+.offer-discount {
+  background: #3e062f none repeat scroll 0 0;
+  border-radius: 8px;
+  color: #fff;
+  h2{
+    border-bottom: 1px solid #662c4e;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 24px 9px 22px;
+    padding-bottom: 12px;
+    padding-top: 16px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+  }
+  p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 22px;
+    margin-right: 15px;
+  }
+  .list-unstyled.custom-dis {
+    background: #fff none repeat scroll 0 0;
+    color: #3f0630;
+    padding-bottom: 9px;
+    padding-left: 22px;
+    padding-top: 9px;
+    li{
+        border-bottom: 1px solid #662c4e;
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 21px;
+        margin-right: 22px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        &:last-child{
+            border-bottom: 0 none;
+        }
+    }
+  }
+}
+
+/*Note area*/
+.note-area {
+  background: #3f0630 none repeat scroll 0 0;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  color: #fff;
+  h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    margin: 0 0 0 23px;
+    padding-bottom: 10px;
+    padding-top: 16px;
+    text-transform: uppercase;
+  }
+  p{
+    background: #fff none repeat scroll 0 0;
+    color: #3f0630;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 17px 23px 18px 22px;
+    text-align: justify;
+  }
+}
+/*Bottom Area*/
+
+.bottom-content {
+     background: #3e062f none repeat scroll 0 0;
+     border-radius: 8px;
+     color: #fff;
+     margin-bottom: 30px;
+     padding: 20px 20px 6px;
+     text-align: center;
+     margin-top: 5px;
+     font-family: 'Oswald', sans-serif;
+    p{
+        font-family: "Oswald",sans-serif;
+        font-size: 1.3em;
+        line-height: 26px;
+        padding: 0.4em 1em;
+        text-align: center;
+    }
+
+}
+
+
+/*  ORDER SUMMERY PAGE */
+
+.note-area.request {
+    margin-bottom: 15px;
+    h2{
+        border-bottom: 1px solid #662c4e;
+        margin-right: 28px;
+        font-family: 'Oswald', sans-serif;
+        }
+     h3{
+       font-family: 'Oswald', sans-serif;
+       font-size: 16px;
+       font-weight: normal;
+       margin: 0;
+       padding-bottom: 13px;
+       padding-left: 22px;
+       padding-top: 9px;
+     }   
+     .custom-textarea {
+       padding-left: 23px;
+       padding-top: 10px;
+       width: 100%;
+     }
+  
+}
+
+    .btn-default {
+      background: #990222 none repeat scroll 0 0;
+      border: medium none #990222;
+      color: #fff;
+      margin-bottom: 5px;
+      min-width: 5em;
+      transition: all 0.9s ease 0s;
+          -moz-transition: all 0.9s ease 0s;
+          -webkit-transition: all 0.9s ease 0s;
+    }
+    .list-unstyled.list-inline.pull-left.custom-cancel {
+      margin-bottom: 24px;
+      margin-left: 18px;
+    }
+/*Change Collection*/
+    .change-collection {
+      background: #3f0630 none repeat scroll 0 0;
+      border-radius: 9px;
+      color: #fff;
+      padding: 18px 22px;
+      p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+      }
+      .list-unstyled.list-inline.post-ul {
+        border-bottom: 1px solid #662c4e;
+        padding-bottom: 4px;
+        font-family: 'Oswald', sans-serif;
+      }
+    }
+
+
+/*Order Delivery*/
+    .order-delivery {
+      background: #3f0630 none repeat scroll 0 0;
+      border-radius: 9px;
+      color: #fff;
+      margin-bottom: 15px;
+      margin-top: 15px;
+      padding: 9px;
+      font-family: 'Oswald', sans-serif;
+      h2{
+        border-bottom: 1px solid #662c4e;
+        font-size: 18px;
+        margin-left: 22px;
+        margin-right: 18px;
+        margin-top: 0;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        font-family: 'Oswald', sans-serif;
+      }
+      .list-unstyled.list-inline.time-btn {
+        margin-left: 22px;
+        font-family: 'Oswald', sans-serif;
+      }
+    }
+
+    /*Payment Area*/
+    .payment {
+      background: #3f0630 none repeat scroll 0 0;
+      border-radius: 9px;
+      color: #fff;
+      margin-bottom: 30px;
+      padding-bottom: 5px;
+      font-family: 'Oswald', sans-serif;
+      h2{
+        border-bottom: 1px solid #662c4e;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 21px;
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0;
+        padding-bottom: 12px;
+        padding-top: 15px;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+      }
+
+      .list-unstyled.list-inline.pull-left.money-ul {
+        margin-left: 28px;
+        font-family: 'Oswald', sans-serif;
+        .btn.btn-default.pay {
+          min-width: 100px;
+        }       
+      }
+    }
+    .cc-table{
+        width: 100%;
+    }
+    .section-2nd{
+        ul li{
+          width: 100%;
+         a.con-btn {
+            display: inline-block;
+            font-size: 1.4em;
+            margin: 0.9em 0 0;
+            padding: 1em 0;
+            width: 100%;
+          }
+        }
+      
+    }
 /* ==========================================================================
     FOOTER SECTION
    ========================================================================== */
@@ -1277,6 +1730,7 @@ select:focus {
       font-size: 2em;
       line-height: 1em;
       margin: 0;
+      font-family:  'Oswald', sans-serif;
     }
     .form-control.custom-sign {
       margin-top: 1em;
