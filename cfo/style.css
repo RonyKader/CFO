@@ -1248,6 +1248,28 @@ select:focus {
   font-size: 1.4em;
   line-height: 1.4em;
 }
+.mypro-order .order-details.myod-list {
+  background: #58595B !important;
+  padding: 1px !important;
+  padding-right: 0px;
+  border-radius: 6px !important;
+}
+.mypro-order .order-details.myod-list .fa.fa-file-text {
+  color: #58595B;
+}
+.mypro-order .order-details.myod-list h2 {
+  border-bottom: 1px solid #fff !important;
+}
+.mypro-order .order-details.myod-list .table.custom-table th {
+  background: #58595B !important;
+  text-align: center;
+  padding-left: 0;
+}
+.mypro-order .order-details.myod-list .table.custom-table td {
+  font-size: 14px;
+  text-align: center;
+  padding-left: 0;
+}
 /* ==========================================================================
        COMING SOON PAGE
        ========================================================================== */
@@ -1447,6 +1469,9 @@ select:focus {
 /* ==========================================================================
       FAQS PAGE
      ========================================================================== */
+.faqs-area {
+  padding-bottom: 2em;
+}
 .faqs-area header > h2 {
   color: #58595b;
   font-family: "Oswald", sans-serif;
@@ -1479,7 +1504,7 @@ select:focus {
   padding-top: 38px;
 }
 .main-title .entry-maintitle {
-  background: #3e062f none repeat scroll 0 0;
+  background: #58595B none repeat scroll 0 0;
   border-radius: 10px;
   color: #fff;
   font-size: 20px;
@@ -1496,7 +1521,7 @@ select:focus {
 }
 /*Order View Area*/
 .order-view .order-progress {
-  background: #3e062f none repeat scroll 0 0;
+  background: #58595B none repeat scroll 0 0;
   border-radius: 9px;
   color: #fff;
   margin-top: 15px;
@@ -1512,8 +1537,8 @@ select:focus {
   font-family: 'Oswald', sans-serif;
 }
 .order-view .order-progress .custom-btn {
-  background: #990221 none repeat scroll 0 0;
-  border-color: #990221;
+  background: #ED1C3B none repeat scroll 0 0;
+  border-color: #ED1C3B;
   color: #fff;
   font-family: "Oswald", sans-serif;
   font-size: 1.5em;
@@ -1537,7 +1562,7 @@ select:focus {
   /*padding-top: 15px;*/
 }
 .order-info .orderinfo-content {
-  background: #3e062f none repeat scroll 0 0;
+  background: #58595B none repeat scroll 0 0;
   border-radius: 9px;
   color: #fff;
   padding: 15px 26px;
@@ -1547,7 +1572,7 @@ select:focus {
   margin-right: 20px;
 }
 .order-info .orderinfo-content .list-unstyled.custom-subheader li {
-  border-bottom: 1px solid #662c4e;
+  border-bottom: 1px solid #fff;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 22px;
@@ -1567,7 +1592,7 @@ select:focus {
   border-bottom: 0 none !important;
 }
 .order-info .orderinfo-content .col-md-4.sub-li::after {
-  background: #662c4e none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 58%;
@@ -1577,7 +1602,7 @@ select:focus {
   width: 1px;
 }
 .order-info .orderinfo-content .col-md-8.sub-li::after {
-  background: #662c4e none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   bottom: 0;
   content: "";
   height: 58%;
@@ -1594,14 +1619,14 @@ select:focus {
 }
 /*Order Details Area*/
 .order-details {
-  background: #3f0630 none repeat scroll 0 0;
+  background: #58595B  none repeat scroll 0 0;
   border-radius: 11px;
   color: #fff;
-  padding: 0px;
+  padding: 1px;
   margin-bottom: 15px;
 }
 .order-details h2 {
-  border-bottom: 1px solid #662c4e;
+  border-bottom: 1px solid #fff;
   font-size: 18px;
   font-weight: bold;
   line-height: 22px;
@@ -1619,7 +1644,7 @@ select:focus {
   background: #eeeeef none repeat scroll 0 0;
 }
 .order-details .table.custom-table th {
-  background: #3f0630 none repeat scroll 0 0;
+  background: #58595B  none repeat scroll 0 0;
   color: #fff;
   padding-left: 22px;
   font-family: 'Oswald', sans-serif;
@@ -1663,12 +1688,12 @@ select:focus {
 }
 /*Offer Discount*/
 .offer-discount {
-  background: #3e062f none repeat scroll 0 0;
+  background: #58595B none repeat scroll 0 0;
   border-radius: 8px;
   color: #fff;
 }
 .offer-discount h2 {
-  border-bottom: 1px solid #662c4e;
+  border-bottom: 1px solid #fff;
   font-size: 19px;
   font-weight: bold;
   margin: 0 24px 9px 22px;
@@ -1687,13 +1712,13 @@ select:focus {
 }
 .offer-discount .list-unstyled.custom-dis {
   background: #fff none repeat scroll 0 0;
-  color: #3f0630;
+  color: #58595B;
   padding-bottom: 9px;
   padding-left: 22px;
   padding-top: 9px;
 }
 .offer-discount .list-unstyled.custom-dis li {
-  border-bottom: 1px solid #662c4e;
+  border-bottom: 1px solid #58595B;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -1707,7 +1732,7 @@ select:focus {
 }
 /*Note area*/
 .note-area {
-  background: #3f0630 none repeat scroll 0 0;
+  background: #58595B  none repeat scroll 0 0;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
   color: #fff;
@@ -1731,7 +1756,7 @@ select:focus {
 }
 /*Bottom Area*/
 .bottom-content {
-  background: #3e062f none repeat scroll 0 0;
+  background: #58595B none repeat scroll 0 0;
   border-radius: 8px;
   color: #fff;
   margin-bottom: 30px;
@@ -1752,7 +1777,7 @@ select:focus {
   margin-bottom: 15px;
 }
 .note-area.request h2 {
-  border-bottom: 1px solid #662c4e;
+  border-bottom: 1px solid #fff;
   margin-right: 28px;
   font-family: 'Oswald', sans-serif;
 }
@@ -1770,9 +1795,9 @@ select:focus {
   padding-top: 10px;
   width: 100%;
 }
-.btn-default {
-  background: #990222 none repeat scroll 0 0;
-  border: medium none #990222;
+.so-btn {
+  background: #ED1C3B none repeat scroll 0 0;
+  border: medium none #ED1C3B;
   color: #fff;
   margin-bottom: 5px;
   min-width: 5em;
@@ -1786,7 +1811,7 @@ select:focus {
 }
 /*Change Collection*/
 .change-collection {
-  background: #3f0630 none repeat scroll 0 0;
+  background: #58595B  none repeat scroll 0 0;
   border-radius: 9px;
   color: #fff;
   padding: 18px 22px;
@@ -1797,13 +1822,13 @@ select:focus {
   line-height: 19px;
 }
 .change-collection .list-unstyled.list-inline.post-ul {
-  border-bottom: 1px solid #662c4e;
+  border-bottom: 1px solid #fff;
   padding-bottom: 4px;
   font-family: 'Oswald', sans-serif;
 }
 /*Order Delivery*/
 .order-delivery {
-  background: #3f0630 none repeat scroll 0 0;
+  background: #58595B  none repeat scroll 0 0;
   border-radius: 9px;
   color: #fff;
   margin-bottom: 15px;
@@ -1812,7 +1837,7 @@ select:focus {
   font-family: 'Oswald', sans-serif;
 }
 .order-delivery h2 {
-  border-bottom: 1px solid #662c4e;
+  border-bottom: 1px solid #fff;
   font-size: 18px;
   margin-left: 22px;
   margin-right: 18px;
@@ -1827,7 +1852,7 @@ select:focus {
 }
 /*Payment Area*/
 .payment {
-  background: #3f0630 none repeat scroll 0 0;
+  background: #58595B  none repeat scroll 0 0;
   border-radius: 9px;
   color: #fff;
   margin-bottom: 30px;
@@ -1835,7 +1860,7 @@ select:focus {
   font-family: 'Oswald', sans-serif;
 }
 .payment h2 {
-  border-bottom: 1px solid #662c4e;
+  border-bottom: 1px solid #fff;
   font-size: 18px;
   font-weight: bold;
   line-height: 21px;

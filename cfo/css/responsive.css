@@ -38,6 +38,10 @@
 	    position: absolute;
 	    width: 0;
 	}
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
+	.mypro-order .order-details.myod-list .table.custom-table th { font-size: 11px; padding-left: 0; text-align: center; }
+	.mypro-order .order-details.myod-list .table.custom-table td { font-size: 12px; padding-left: 0; text-align: center; }
+
 	.header-top .find-area .donate-now li { margin: 0 1em 2em 0; width: 100%;}
 	.cart-section{display: block;}
 	.header-top .find-area .crd-area{ margin-bottom: 0;	}
@@ -72,6 +76,10 @@
 	.header-top {padding-top: 1em;}
 	.social-head { text-align: center;}
 	.social-head ul { margin: 0em;}
+
+	.mypro-order .order-details.myod-list .table.custom-table th { font-size: 12px; padding-left: 0; text-align: center; }
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
+	.mypro-order .order-details.myod-list .table.custom-table td { font-size: 13px; padding-left: 0; text-align: center; }
 
 	.logo-are.pull-right img {width: 100%;}
 	.header-top .register-area ul li a {width: 6.8em;}
@@ -196,6 +204,7 @@
 	.custom-headerarea .custom-menu{ margin-top: .5em;}
 	.custom-headerarea .custom-menu ul{ text-align: center;}
 	.menu-buttonarea .custom-navbutton li a { width: 18.4em; }
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
 	.btn-default{ min-width: 4.8em;}
 
 
@@ -273,6 +282,7 @@
 	.custom-headerarea .custom-menu{ margin-top: .5em;}
 	.custom-headerarea .custom-menu ul{ text-align: center;}
 	.menu-buttonarea .custom-navbutton li a { width: 28.4em; }
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
 	.btn-default{ min-width: 4.8em;}
 
 }
@@ -333,6 +343,7 @@
 	.best-restaurants .restaurant-item .bottom-border::after{bottom: -1.7em;}
 	.footer-area .sigin-up.text-right > h2{font-size: 2em; text-align: center;}
 	.footer-area .custom-signbtn{ width: 100%;}
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
 	.best-restaurants .restaurant-item .rest-offer > h2{ width: 50%}
 
 
