@@ -905,7 +905,7 @@ select:focus {
   margin: 0;
 }
 /* ==========================================================================
-    MENU BUTTONAREA SECTION - > SEARCH RESULT PAGE
+    MENU BUTTON AREA SECTION - > SEARCH RESULT PAGE
    ========================================================================== */
 .menu-buttonarea {
   background: #fff none repeat scroll 0 0;
@@ -1252,7 +1252,10 @@ select:focus {
   background: #58595B !important;
   padding: 1px !important;
   padding-right: 0px;
-  border-radius: 6px !important;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 .mypro-order .order-details.myod-list .fa.fa-file-text {
   color: #58595B;
@@ -1269,6 +1272,41 @@ select:focus {
   font-size: 14px;
   text-align: center;
   padding-left: 0;
+}
+.mypro-order .order-details.myod-list.detail-lor {
+  background: #58595B !important;
+  padding: 1px !important;
+  padding-right: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.order-info.ordetail-info {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.order-info.ordetail-info .orderinfo-content {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.order-info.ordetail-info .details-head {
+  font-family: "Oswald", sans-serif;
+}
+.order-info.ordetail-info .details-head table {
+  border: 1px solid #fff;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.order-info.ordetail-info .details-head table th {
+  border: 1px solid #fff;
+  text-align: center;
+}
+.order-info.ordetail-info .details-head table td {
+  border: 1px solid #fff;
+  text-align: center;
 }
 /* ==========================================================================
        COMING SOON PAGE
@@ -1945,4 +1983,7 @@ select:focus {
   height: 45px;
   width: 45px;
   z-index: 9999999;
+}
+.table > thead > tr > th {
+  border-bottom: 0;
 }

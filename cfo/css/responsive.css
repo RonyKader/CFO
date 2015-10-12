@@ -41,6 +41,7 @@
 	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
 	.mypro-order .order-details.myod-list .table.custom-table th { font-size: 11px; padding-left: 0; text-align: center; }
 	.mypro-order .order-details.myod-list .table.custom-table td { font-size: 12px; padding-left: 0; text-align: center; }
+	.order-info.ordetail-info .details-head table th { border: 1px solid #fff !important; font-size: 0.8em; text-align: center;	}
 
 	.header-top .find-area .donate-now li { margin: 0 1em 2em 0; width: 100%;}
 	.cart-section{display: block;}
@@ -80,6 +81,7 @@
 	.mypro-order .order-details.myod-list .table.custom-table th { font-size: 12px; padding-left: 0; text-align: center; }
 	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
 	.mypro-order .order-details.myod-list .table.custom-table td { font-size: 13px; padding-left: 0; text-align: center; }
+	.order-info.ordetail-info .details-head table th { border: 1px solid #fff !important; font-size: 0.9em; text-align: center;	}
 
 	.logo-are.pull-right img {width: 100%;}
 	.header-top .register-area ul li a {width: 6.8em;}
@@ -347,6 +349,7 @@
 	.best-restaurants .restaurant-item .rest-offer > h2{ width: 50%}
 
 
+
 	.best-restaurants .restaurant-item .date-discount ul li{  padding: 0em; width: 25% !important;  }
 	.best-restaurants .restaurant-item .date-discount ul{ text-align: center; }
 	.best-restaurants .restaurant-item .search-discount ul li{ padding: 0em; width: 8% !important; }
@@ -356,6 +359,7 @@
 	.custom-headerarea .custom-menu{ margin-top: .5em;}
 	.custom-headerarea .custom-menu ul{ text-align: center;}
 	.btn-default{ min-width: 4.8em;}
+
 
 }
 
