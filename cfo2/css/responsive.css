@@ -1,0 +1,438 @@
+/*BY R.K*/
+
+/*/*********SMALL (320) IPHONE-5 LAYOUT ************/
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+	.header-top { padding-top: 1em;	}
+	.social-head { text-align: center;}
+	.social-head ul { margin: 0em;}
+	.logo-are.pull-right img {width: 100%;}
+	.header-top .register-area ul li a {width: 6.4em;}
+	.header-top .header-bg::after{top: 17em;}
+	.header-top .register-area { margin-top: 0; }
+	.header-top .find-area { margin-top: 4em;}
+	.header-top .logo-are { float: left; margin-bottom: 1em; margin-top: 1em; width: 100%;}
+	.header-top .find-area h2 { font-size: 2.3em;}
+	.header-top .find-area p { font-size: 1.5em; padding: 0 1em;}
+	.parallax-area h2 { font-size: 2em; padding-top: 5em;}
+	.best-restaurants header h2, .discover-area header h2, .comment-area header h2 { font-size: 2em; line-height: 1.2em;}
+	.header-top .header-bg { background-position: center center;}
+	.mobile-left::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 30%;
+	    position: absolute;
+	    width: 0;
+	}
+	.mobile-right::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 60%;
+	    position: absolute;
+	    width: 0;
+	}
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
+	.mypro-order .order-details.myod-list .table.custom-table th { font-size: 11px; padding-left: 0; text-align: center; }
+	.mypro-order .order-details.myod-list .table.custom-table td { font-size: 12px; padding-left: 0; text-align: center; }
+	.order-info.ordetail-info .details-head table th { border: 1px solid #fff !important; font-size: 0.8em; text-align: center;	}
+
+	.header-top .find-area .donate-now li { margin: 0 1em 2em 0; width: 100%;}
+	.cart-section{display: block;}
+	.header-top .find-area .crd-area{ margin-bottom: 0;	}
+	.best-restaurants .restaurant-item .rest-offer h4{ margin-top: 1em;}
+	.best-restaurants .btn-black { width: 100%;}
+	.rating-content ul li{padding: 0em;}
+	.date-discount ul li{ width: 29%;}
+	.sigin-up.text-right{ margin-top: 2em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star{font-size: 1em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star.c-font{font-size: 1em;}
+	.best-restaurants .restaurant-item{margin-bottom: 3.4em;}
+	.best-restaurants .restaurant-item .bottom-border::after{bottom: -1.7em;}
+	.footer-area .sigin-up.text-right > h2{font-size: 2em; text-align: center;}
+	.footer-area .custom-signbtn{ width: 100%;}
+	.best-restaurants .restaurant-item .rest-offer > h2{ width: 50%}
+	.best-restaurants .restaurant-item .date-discount ul{ text-align: center; }
+	.best-restaurants .restaurant-item .date-discount ul li{  padding: 0em; width: 25% !important;  }
+	.best-restaurants .restaurant-item .search-discount ul li{ padding: 0em; width: 15% !important; }
+	.rating-content.search-rating.text-right{ text-align: center;}
+	.searchcontent-area .off { font-size: 1.3em;  width: 65%; margin-left: .2em;}
+	.custom-headerarea .custom-social{ text-align: center;}
+	.custom-headerarea .custom-menu{ margin-top: .5em;}
+	.custom-headerarea .custom-menu ul{ text-align: center;}
+	.menu-buttonarea .custom-navbutton li a { width: 18.4em; }
+	.btn-default{ min-width: 4.8em;}
+	table.favour-tabel td h3, p { padding-left: 1em; padding-right: 0.5em; text-align: left; }
+	.favoure-area .order-details.myod-list.favour-list .favour-tabel td .so-btn{ margin-top: 0;}
+
+	.order-info.ordetail-info .orderinfo-content{ padding: .3em;}
+	
+
+
+}
+
+/*/*********SMALL (375) IPHONE-6 LAYOUT ************/
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+	.header-top {padding-top: 1em;}
+	.social-head { text-align: center;}
+	.social-head ul { margin: 0em;}
+
+	.mypro-order .order-details.myod-list .table.custom-table th { font-size: 12px; padding-left: 0; text-align: center; }
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
+	.mypro-order .order-details.myod-list .table.custom-table td { font-size: 13px; padding-left: 0; text-align: center; }
+	.order-info.ordetail-info .details-head table th { border: 1px solid #fff !important; font-size: 0.9em; text-align: center;	}
+
+	.logo-are.pull-right img {width: 100%;}
+	.header-top .register-area ul li a {width: 6.8em;}
+	.header-top .header-bg::after{top: 17em;}
+	.header-top .register-area { margin-top: 0;}
+	.header-top .find-area { margin-top: 4em;}
+	.header-top .logo-are { float: left; margin-bottom: 0em; margin-top: 2em; width: 100%;}
+	.header-top .find-area h2 { font-size: 2.3em;}
+	.header-top .find-area p { font-size: 1.5em; padding: 0 1em;}
+	.header-top .register-area ul li a { width: 7.8em;}
+	.parallax-area h2 { font-size: 2em; padding-top: 5em;}
+	.best-restaurants header h2, .discover-area header h2, .comment-area header h2 { font-size: 2em; line-height: 1.2em;}
+	.header-top .header-bg { background-position: center center;}
+	.best-restaurants .restaurant-item .rest-offer h4{ margin-top: 1em;}
+	.best-restaurants .btn-black { width: 100%; }
+	.rating-content ul li{padding: 0em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star{font-size: 1em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star.c-font{font-size: 1em;}
+	.best-restaurants .restaurant-item{margin-bottom: 3.4em;}
+	.best-restaurants .restaurant-item .bottom-border::after{bottom: -1.7em;}
+	.footer-area .sigin-up.text-right > h2{font-size: 2em; text-align: center;}
+	.footer-area .custom-signbtn{ width: 100%;}
+	.best-restaurants .restaurant-item .rest-offer > h2{ width: 50%}
+
+	.best-restaurants .restaurant-item .date-discount ul li{  padding: 0em; width: 25% !important;  }
+	.best-restaurants .restaurant-item .date-discount ul{ text-align: center; }
+	.best-restaurants .restaurant-item .search-discount ul li{ padding: 0em; width: 15% !important; }
+	.rating-content.search-rating.text-right{ text-align: center;}
+	.searchcontent-area .off {width: 65%; margin-left: .2em;}
+	.custom-headerarea .custom-social{ text-align: center;}
+	.custom-headerarea .custom-menu{ margin-top: .5em;}
+	.custom-headerarea .custom-menu ul{ text-align: center;}
+	.menu-buttonarea .custom-navbutton li a { width: 18.4em; }
+	.btn-default{ min-width: 4.8em;}
+	table.favour-tabel td h3, p { padding-left: 1em; padding-right: 0.5em; text-align: left; }
+	.favoure-area .order-details.myod-list.favour-list .favour-tabel td .so-btn{ margin-top: 0;}
+	.order-info.ordetail-info .orderinfo-content{ padding: .5em;}
+
+
+
+	.mobile-left::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 30%;
+	    position: absolute;
+	    width: 0;
+	}
+	.mobile-right::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 60%;
+	    position: absolute;
+	    width: 0;
+	}
+	.header-top .find-area .donate-now li { margin: 0 1em 2em 0; width: 100%;}
+	.cart-section{ display: block;}
+	.header-top .find-area .crd-area{ margin-bottom: 0;	}
+	.header-top .find-area .donate-now label { width: 98.4%;}
+	.comment > h2 {  padding-top: 15%;}
+
+}
+
+/*/*********SMALL (320) IPHONE-6+ LAYOUT ************/
+@media only screen and (min-width: 414px) and (max-width: 479px) {
+
+	.mobile-left::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 30%;
+	    position: absolute;
+	    width: 0;
+	}
+	.mobile-right::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 60%;
+	    position: absolute;
+	    width: 0;
+	}
+	.header-top .find-area .donate-now li {margin: 0 1em 2em 0;  width: 100%;}
+	.cart-section{  display: block;	}
+	.header-top .find-area .crd-area{ margin-bottom: 0;	}
+	.best-restaurants .restaurant-item .rest-offer h4{ margin-top: 1em;}
+	.header-top .logo-are { float: left; margin-bottom: 1em; margin-top: 1em; width: 100%;}
+	.logo-are.pull-right img {width: 100%;}
+	.header-top .register-area ul li a {width: 6.4em;}
+	.header-top .header-bg::after{top: 17em;}
+	.header-top .register-area { margin-top: 0; }
+	.header-top .find-area { margin-top: 4em;	}
+	.parallax-area h2 { font-size: 3em; padding-top: 4em; line-height: 1.2em;}
+	.header-top .register-area ul li a{ width: 8.8em;}
+	.best-restaurants .btn-black { width: 100%; }	
+	.header-top {padding-top: 1em;}
+	.social-head { text-align: center;}
+	.social-head ul { margin: 0em;}
+	.rating-content ul li{padding: 0em;}
+	.header-top .find-area p{padding:0 0.4em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star{font-size: 1em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star.c-font{font-size: 1em;}
+	.best-restaurants .restaurant-item{margin-bottom: 3.4em;}
+	.best-restaurants .restaurant-item .bottom-border::after{bottom: -1.7em;}
+	.footer-area .sigin-up.text-right > h2{font-size: 2em; text-align: center;}
+	.footer-area .custom-signbtn{ width: 100%;}
+	.best-restaurants .restaurant-item .rest-offer > h2{ width: 50%}
+
+	.best-restaurants .restaurant-item .date-discount ul li{  padding: 0em; width: 25% !important;  }
+	.best-restaurants .restaurant-item .search-discount ul li{ padding: 0em; width: 15% !important;}
+	.best-restaurants .restaurant-item .search-discount ul { text-align: center;}
+	.rating-content.search-rating.text-right{ text-align: center;}
+	.searchcontent-area .off {width: 65%; margin-left: .2em;}
+	.custom-headerarea .custom-social{ text-align: center;}
+	.custom-headerarea .custom-menu{ margin-top: .5em;}
+	.custom-headerarea .custom-menu ul{ text-align: center;}
+	.menu-buttonarea .custom-navbutton li a { width: 18.4em; }
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
+	.btn-default{ min-width: 4.8em;}
+	table.favour-tabel td h3, p { padding-left: 1em; padding-right: 0.5em; text-align: left; }
+	.favoure-area .order-details.myod-list.favour-list .favour-tabel td .so-btn{ margin-top: 0;}
+	.order-info.ordetail-info .orderinfo-content{ padding: .5em;}
+
+
+
+
+
+	
+}
+
+/**********ANDROID MOBILE Galaxy Note 4 LAYOUT ************/
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	.logo-are.pull-right img { width: 100%;	}
+	.header-top .register-area { margin-top: 0;	}
+	.header-top .find-area { margin-top: 20em;}
+	.header-top .logo-are { margin-bottom: 2em; margin-top: 2em; width: 100%;}
+	.logo-are img { width: 100%;}
+	.header-top .find-area h2 { font-size: 2.3em;}
+	.header-top .find-area p { font-size: 1.5em; padding: 0 1em;}
+	.header-top .find-area { margin-top: 22em;}
+	.parallax-area h2 {font-size: 2em; padding-top: 5em;}
+	.best-restaurants header h2, .discover-area header h2, .comment-area header h2 { font-size: 2em; line-height: 1.2em;}
+	.header-top .register-area ul li a { padding: 0.8em 0; width: 10.9em;}
+	.header-top .header-bg { background-position: center center;}
+	.mobile-left::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 30%;
+	    position: absolute;
+	    width: 0;
+	}
+	.mobile-right::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 60%;
+	    position: absolute;
+	    width: 0;
+	}
+	.header-top .find-area .donate-now li { margin: 0 1em 2em 0; width: 100%; }
+	.cart-section{display: block;}
+	.header-top .find-area .crd-area{margin-bottom: 0;}
+	.best-restaurants .restaurant-item .rest-offer h4{ margin-top: 1em;}
+	.header-top .logo-are { float: left; margin-bottom: 1em; margin-top: 1em; width: 100%;}
+	.logo-are.pull-right img {width: 100%;}
+	.header-top .header-bg::after{top: 19em;}
+	.header-top .register-area { margin-top: 0; }
+	.header-top .find-area { margin-top: 2em;	}
+	.parallax-area h2 { font-size: 3em; padding-top: 4em; line-height: 1.2em;}
+	.header-top .register-area ul li a{ width: 10.5em;}
+	.best-restaurants .btn-black { width: 100%; }	
+	.header-top {padding-top: 1em;}
+	.social-head { text-align: center;}
+	.social-head ul { margin: 0em;}
+	.rating-content ul li{padding: 0em;}
+	.header-top .find-area p{padding:0 0.4em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star{font-size: 1em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star.c-font{font-size: 1em;}
+	.best-restaurants .restaurant-item{margin-bottom: 3.4em;}
+	.best-restaurants .restaurant-item .bottom-border::after{bottom: -1.7em;}
+	.footer-area .sigin-up.text-right > h2{font-size: 2em; text-align: center;}
+	.footer-area .custom-signbtn{ width: 100%;}
+	.best-restaurants .restaurant-item .rest-offer > h2{ width: 50%}
+
+
+	.best-restaurants .restaurant-item .date-discount ul li{  padding: 0em; width: 25% !important;  }
+	.best-restaurants .restaurant-item .date-discount ul{ text-align: center; }
+	.best-restaurants .restaurant-item .search-discount ul li{ padding: 0em; width: 15% !important; }
+	.rating-content.search-rating.text-right{ text-align: center;}
+	.searchcontent-area .off {width: 65%; margin-left: .2em;}
+	.custom-headerarea .custom-social{ text-align: center;}
+	.custom-headerarea .custom-menu{ margin-top: .5em;}
+	.custom-headerarea .custom-menu ul{ text-align: center;}
+	.menu-buttonarea .custom-navbutton li a { width: 28.4em; }
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
+	.btn-default{ min-width: 4.8em;}
+	table.favour-tabel td h3, p { padding-left: 1em; padding-right: 0.5em; text-align: left; }
+	.favoure-area .order-details.myod-list.favour-list .favour-tabel td .so-btn{ margin-top: 0;}
+	.order-info.ordetail-info .orderinfo-content{ padding: .5em;}
+
+
+
+
+}
+
+/********** TABLET LAYOUT Small tablet portrait ************/
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+	.header-top .logo-are {margin-bottom: 1em; margin-top: 2em; width: 100%;	}
+	.logo-are img { width: 100%;}
+	.header-top .register-area { margin-top: 0em;}
+	.header-top .register-area ul li a { padding: 0.8em 0; width: 15.5em;}
+	.header-top .find-area { margin-top: 2em;}
+	.header-top .find-area p { padding: 0 1em; }
+	.header-top .header-bg { background-position: center center;}
+	.mobile-left::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 30%;
+	    position: absolute;
+	    width: 0;
+	}
+	.mobile-right::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 60%;
+	    position: absolute;
+	    width: 0;
+	}
+	.header-top .find-area .donate-now li { margin: 0 1em 2em 0; width: 100%;}
+	.cart-section{ display: block;}
+	.header-top .find-area .crd-area{margin-bottom: 0;}
+	.header-top .find-area .donate-now label { width: 99.5%; }
+	.comment > h2 { padding-top: 15%;}
+	.best-restaurants .restaurant-item .rest-offer h4{ margin-top: 1em;}
+	.header-top .logo-are { float: left; margin-bottom: 1em; margin-top: 1em; width: 100%;}
+	.logo-are.pull-right img {width: 100%;}
+	.header-top .register-area { margin-top: 0; }
+	.header-top .header-bg::after{top: 21em;}
+	.header-top .find-area { margin-top: 3em;}
+	.parallax-area h2 { font-size: 3em; padding-top: 4em; line-height: 1.2em;}
+	.header-top .register-area ul li a{ width: 15em;}
+	.best-restaurants .btn-black { width: 100%; }	
+	.header-top {padding-top: 1em;}
+	.social-head { text-align: center;}
+	.social-head ul { margin: 0em;}
+	.rating-content ul li{padding: 0em;}
+	.header-top .find-area p{padding:0 0.4em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star{font-size: 1em;}
+	.best-restaurants .restaurant-item .rating-content .glyphicon.glyphicon-star.c-font{font-size: 1em;}
+	.best-restaurants .restaurant-item{margin-bottom: 3.4em;}
+	.best-restaurants .restaurant-item .bottom-border::after{bottom: -1.7em;}
+	.footer-area .sigin-up.text-right > h2{font-size: 2em; text-align: center;}
+	.footer-area .custom-signbtn{ width: 100%;}
+	.searchcontent-area .search-restaurantitem .btn-black{ width: 100% }
+	.best-restaurants .restaurant-item .rest-offer > h2{ width: 50%}
+
+
+
+	.best-restaurants .restaurant-item .date-discount ul li{  padding: 0em; width: 25% !important;  }
+	.best-restaurants .restaurant-item .date-discount ul{ text-align: center; }
+	.best-restaurants .restaurant-item .search-discount ul li{ padding: 0em; width: 8% !important; }
+	.rating-content.search-rating.text-right{ text-align: center;}
+	.searchcontent-area .off {width: 65%; margin-left: .2em;}
+	.custom-headerarea .custom-social{ text-align: center;}
+	.custom-headerarea .custom-menu{ margin-top: .5em;}
+	.custom-headerarea .custom-menu ul{ text-align: center;}
+	.btn-default{ min-width: 4.8em;}
+	table.favour-tabel td h3, p { padding-left: 1em; padding-right: 0.5em; text-align: left; }
+	.favoure-area .order-details.myod-list.favour-list .favour-tabel td .so-btn{ margin-top: 0;}
+	.order-info.ordetail-info .orderinfo-content{ padding: .5em;}
+	
+
+
+}
+
+/******************* NORMAL LAYOUT Tablet portrait***********************/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.header-top .logo-are { width: 100%;}
+	.header-top .register-area ul li a { width: 5.1em; }
+	.header-top .header-bg { background-position: center center; }
+	.header-top .find-area {margin-top: 21em; }
+	.mobile-left::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 30%;
+	    position: absolute;
+	    width: 0;
+	}
+	.mobile-right::before {
+	    border-left: 25px solid transparent;
+	    border-right: 27px solid transparent;
+	    border-top: 29px solid #e8e9e9;
+	    bottom: -2em;
+	    content: "";
+	    height: 0;
+	    left: 60%;
+	    position: absolute;
+	    width: 0;
+	}
+	.header-top .find-area .donate-now li:last-child { float: right; margin-right: 5px; }
+	.header-top .find-area .donate-now li { margin: 0 1em 2em 0; width: 31.3%; }
+	.header-top .register-area{ margin-top: .2em;}
+	.header-top .header-bg::after{top: 11em;}
+	.header-top .find-area { margin-top: 3em;}
+	.header-top .find-area p{ padding: 0em 3em;}
+	.comment > h2 { padding-top: 12%; }
+}
+
+/******************* NORMAL LAYOUT Desktop Size***********************/
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+	.menu-buttonarea .custom-navbutton li a { width: 11em;}
+		.header-top .find-area .donate-now li { margin: 0 1em 2em 0; width: 31.3%; }
+	}
+}
+
+/******************* LARGE LAYOUT Large Screen***********************/
+@media only screen and (min-width: 1212px) {}
